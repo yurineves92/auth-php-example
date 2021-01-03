@@ -7,10 +7,6 @@ class Web extends Controller
     public function __construct($router)
     {
         parent::__construct($router);
-
-        if(!empty($_SESSION["user"])){
-            $this->router->redirect("app.home");
-        }
     }
 
     public function login(): void
@@ -30,7 +26,7 @@ class Web extends Controller
     public function register(): void
     {
         $head = $this->seo->optimize(
-            "Crie sua conta |".site("name"),
+            "Crie sua conta | ".site("name"),
             site("description"),
             $this->router->route("web.register"),
             routeImage("Cadastrar")
