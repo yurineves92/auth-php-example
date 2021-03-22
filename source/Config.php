@@ -41,9 +41,9 @@ define("DATA_LAYER_CONFIG", [
 */
 
 define("SOCIAL", [
-    "facebook_page" => "robsonvleite",
-    "facebook_author" => "robsonvleite",
-    "facebook_appId" => "2193729837289",
+    "facebook_page" => "yurineves92",
+    "facebook_author" => "yurineves92",
+    "facebook_appId" => "123456789890",
     "twitter_creator" => "@yurineves92",
     "twitter_site" => "@yurineves92"
 ]);
